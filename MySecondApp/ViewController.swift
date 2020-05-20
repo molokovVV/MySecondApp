@@ -27,8 +27,21 @@ class ViewController: UIViewController {
         greenLightView.alpha = 0.3
     }
     
+    
     @IBAction func showLightButtonPressed() {
         
+        if redLightView.alpha != 1 && yellowLightView.alpha != 1 {
+            redLightView.alpha = 1
+            greenLightView.alpha = 0.3
+            showLightButton.setTitle("NEXT", for: .normal)
+        } else if redLightView.alpha == 1 {
+            redLightView.alpha = 0.3
+            yellowLightView.alpha = 1
+        } else {
+            yellowLightView.alpha = 0.3
+            greenLightView.alpha = 1
+        }
     }
+    
 }
 

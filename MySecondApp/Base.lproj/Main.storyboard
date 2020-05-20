@@ -55,7 +55,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="showLightButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="3fT-C0-5SM"/>
+                                    <action selector="showLightButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="mXQ-cN-yRF"/>
                                 </connections>
                             </button>
                         </subviews>
